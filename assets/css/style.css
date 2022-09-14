@@ -1,0 +1,152 @@
+* {
+    /* resets browser sizing defaults */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* sets the background color for the whole page */
+    background-color: #d9dcd6;
+}
+
+header {
+    /* defines the styling for the header */
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+header h1 {
+    /* defines the styling for the h1 tag in the header element */
+    display: inline-block;
+    font-size: 48px;
+}
+
+header h1 .seo {
+    /* sets the color for the seo letters in the company name */
+    color: #d9dcd6;
+}
+
+header nav {
+    /* sets the styling for the nav items in the header */
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header nav ul {
+    /* removes bullets from the nav items */
+    list-style-type: none;
+}
+
+header nav ul li {
+    /* sets the nav list items to display in a single line with 25px between them */
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    /* removes browser default color and underline on links */
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    /* defines the body text font size */
+    font-size: 16px;
+}
+
+.hero {
+    /* sets the background image and size of the hero image */
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    /* defines the layout of the content section of the page */
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.main-content-block {
+    /* sets styling for each of the three marketing sections within its container */
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.main-content-block h2 {
+    /* defines style for the h2 elements in the main content blocks */
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.main-content-block img {
+    /* defines the size of the image elements */
+    max-height: 200px;
+}
+
+.float-left {
+    /* applies float and margin styling as a utility class */
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    /* applies float and margin styling as a utility class */
+    float: right;
+    margin-left: 25px;
+}
+
+aside {
+    /* sets the size and style of the aside element with the class of benefits */
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* The following three rules define styling fot the benefits items in the sidebar */
+.benefits-block {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefits-block h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefits-block img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+footer {
+    /* centers and sets styling for the footer content */
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h4 {
+    /* sets font size for the h4 header in the footer */
+    font-size: 20px;
+}
